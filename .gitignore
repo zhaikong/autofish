@@ -28,3 +28,5 @@ af.db
 .codex
 
 .history/
+config.bat
+node_modules

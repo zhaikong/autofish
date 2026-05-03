@@ -188,3 +188,7 @@ tasks.withType<Test> {
         "java.base/java.time=ALL-UNNAMED",
     )
 }
+
+tasks.named("preBuild") {
+    dependsOn(rootProject.tasks.named("startApi"))
+}
